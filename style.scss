@@ -1,0 +1,391 @@
+:root{
+    //***    nule   ***
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    a{
+        text-decoration: none;
+        color : var(--black);
+    }
+
+    //***   variables   ***
+
+    --color_body : #E5E5E5;
+
+    --color_act_1 : #D3AF4A;
+    --color_act_2 : #AB8B2F;
+    --color_act_3 : #DEC377;
+    --color_act_4 : rgba(222, 195, 119, 0.75);
+    --color_act_5 : rgba(222, 195, 119, 0.4);
+
+    --color_first : rgba(0, 0, 0, 0.8);
+    --color_secondary : rgba(0, 0, 0, 0.5);
+    --color_details : rgba(0, 0, 0, 0.1);
+    --color_no_active : rgba(0, 0, 0, 0.1);
+
+    //***   text colors   ****
+    --color_main_text : rgba(0, 0, 0, 0.8);
+    --color_articles : rgba(0, 0, 0, 0.9);
+    --color_subarticles : rgba(0, 0, 0, 0.75);
+    --color_double_subart : rgba(0, 0, 0, 0.5);
+
+
+    --indent_100_px : calc(100rem/16);
+    --indent_80_px : calc(80rem/16);
+    --indent_40_px : calc(40rem/16);
+    --indent_35_px : calc(35rem/16);
+    --indent_30_px : calc(30rem/16);
+
+
+    .h1{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(40rem/16);
+        line-height: calc(50rem/16);
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: var(--color_articles);
+    }
+
+    .h2{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(28rem/16);
+        line-height: calc(40rem/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--color_articles);
+    }
+
+    .h3{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: calc(26rem/16);
+        line-height: calc(40rem/16);
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: var(--color_articles);
+    }
+
+    .h4{
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(26rem/16);
+    line-height: calc(45rem/16);
+    text-align: center;
+    color: var(--color_articles);
+    }
+
+    .h5{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(20rem/16);
+        line-height: calc(30rem/16);
+        text-align: center;
+        color: var(--color_articles);
+    }
+
+    .h6{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(18rem/16);
+        line-height: calc(25rem/16);
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: var(--color_articles);
+    }
+
+    .sub_h1{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: calc(17rem/16);
+        line-height: calc(30rem/16);
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: var(--color_subarticles);
+    }
+
+    .sub_h2{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(16rem/16);
+        line-height: calc(25rem/16);
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--color_subarticles);
+    }
+
+    .tetx_main{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(15rem/16);
+        line-height: calc(25rem/16);
+        text-align: center;
+        color: var(--color_main_text);
+    }
+    
+    .text_secendary{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(14rem/16);
+        line-height: calc(25rem/16);
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: var(--color_main_text);
+    }
+
+    .text_additionally{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(13rem/16);
+        line-height: calc(20rem/16);
+        text-align: center;
+        color: var(--color_double_subart);
+    }
+
+    .text_button_1{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: calc(13rem/16);
+        line-height: calc(30rem/16);
+        text-align: center;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(-color_main_text);
+    }
+
+    .text_button_2{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: calc(12rem/16);
+        line-height: calc(20rem/16);
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--color_double_subart);
+    }
+
+    .text_signature{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(13rem/16);
+        line-height: calc(20rem/16);
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: var(--color_double_subart);
+    }
+
+    .text_inscription{
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(14rem/16);
+        line-height: calc(20rem/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color_main_text); 
+    }
+
+    .header{
+        width: 100%;
+        background-color: var(--white);
+        padding-top: 6px;
+    }
+
+
+    //***   bootstrap mods   ***
+
+    .list-group-item{
+        border: none;
+        padding : 0;
+    }
+
+    .navbar{
+
+        padding : 0;
+
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(14rem/16);
+        line-height: calc(20rem/16);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color_subarticles);
+
+        .navbar-collapse{
+
+            .navbar-nav{
+                
+                transform: translate(calc(16rem/16), calc(-5rem/16));
+                gap: calc(50.5rem/16);
+
+                .nav-link{
+
+                    padding : 0;
+                    margin: 0;
+
+                    svg{
+
+                        width: calc(18rem/16);
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    body{
+
+        background-color : var(--color_body);
+
+        //when screen bigger then 1200px
+        @media screen and (min-width : 1200px) {
+
+            .wrapper{
+                max-width: calc(1216rem/16);
+                //padding-left: calc(16rem/16);
+                transform: translateX((calc(8rem/16)));
+            }
+            
+            .container-xl{
+                max-width: calc(1920rem/16);
+                padding: 0;
+                margin: 0;
+
+                .wrapper{
+                    
+
+                    .mini-header{
+                        
+                        width: 100%;
+                        color: var(--color_main_text);
+                        margin-bottom: calc(24rem/16);
+
+                        .mini-header__language{
+                            
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-style: normal;
+                            font-size: 1rem;
+                            line-height: calc(20rem/16);
+                            opacity: 0.5;
+
+                            .lang{
+                                font-weight: 300;
+                            }
+
+                            .dropdown{
+                                font-weight: 400;
+
+                                .btn{
+                                    border: none;
+                                    padding-top: 0;
+                                    padding-bottom: 0;
+
+                                    &:after {
+                                        margin-left: calc(6.5rem/16);
+                                        vertical-align: 0px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .mini-header__img-eye{
+
+                            .img-eye__link{
+
+                                transform: translate(calc(120rem/16), calc(4rem/16));
+                               
+                                .link__eye-img{
+                                    width: calc(35rem/16);
+                                    height: calc(35rem/16);
+                                }
+                            }
+                        }
+
+                        .mini-header__connection-var{
+                            opacity: 0.5;
+                            gap : calc(16rem/16);
+                            font-size: calc(13rem/16);
+                            letter-spacing: calc(-6rem/160);
+
+                            .connection-var__A1, .connection-var__MTS {
+
+                                .list-group{
+
+                                    .list-group-item{
+
+                                        img{
+                                            width: calc(20rem/16);
+                                            height: calc(20rem/16);
+                                        }
+                                    }
+                                }
+                            }
+
+                            .connection-var__MTS{
+
+                                .list-group{
+
+                                    gap: calc(40rem/16);
+                                    align-items: flex-end;
+                                }
+                            }
+
+                            .connection-var__A1{
+
+                                .list-group{
+
+                                    gap: calc(10rem/16);
+                                    align-items: flex-end;
+
+                                    .list-group-item{
+                                        &:nth-child(1){
+                                            margin-right: calc(6rem/16);
+                                            letter-spacing: calc(8rem/160);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+
+            }
+        }
+        
+
+        //   ***   breakpoints list   ***
+
+
+        // Большие девайсы (большие десктопы, < 1200)
+        //@media (max-width: 1199.98) { ... }
+
+        // Средние девайсы («таблетки», < 992) 
+        //@media (max-width: 991.98) { ... }
+
+        // Малые девайсы («ландшафтные», < 768)
+        //@media (max-width: 767.98) { ... }
+
+        // Экстрамалые девайсы («телефоны», < 576)
+        //@media (max-width: 575.98) { ... }
+    }
+}
