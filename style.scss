@@ -541,6 +541,7 @@
                     .sec-2-introduction{
                         
                         padding-top: calc(294rem/16);
+                        padding-bottom: calc(90rem/16);
 
                         .wrapper{
                             
@@ -563,6 +564,78 @@
                                         }
                                     }
                                 }
+                            }
+                        }
+                    }
+
+                    .sec-3-main-directions{
+                        
+                        .wrapper{
+
+                            .h2{
+                                margin-bottom: calc(36rem/16);
+                            }
+
+                            .card-group{
+
+                                width: calc(1170rem/16);
+                                transform: translateX(calc(15%/10));
+                                column-gap: calc(30rem/16);
+                                row-gap: calc(14rem/16);
+
+                                .card{
+    
+                                    width: calc(370rem/16);
+                                    height: calc(140rem/16);
+                                    flex: none;
+                                    margin-left: 0;
+                                    padding : 0;
+
+                                    //background-color: black;
+
+                                    .row{
+
+                                        height: 100%;
+
+                                        .card-info{
+
+                                            padding-top: calc(23rem/16);
+                                            padding-left: calc(37rem/16);
+                                            padding-bottom: calc(22rem/16);
+
+                                            .card-body{
+        
+                                                padding : 0;
+                                            }
+
+                                            .card-footer{
+
+                                                padding : 0;
+
+                                                .btn{
+                                                    padding : 0;
+                                                }
+                                            }
+                                        }
+
+                                        .card-img-block {
+
+                                            //transform: translateY(calc(-16rem/16));
+                                        
+                                            .card-img{
+                                                width: calc(80rem/16);
+                                                padding : calc(20rem/16);
+                                                border-radius : 50%;
+                                                border:  calc(3rem/16) solid var(--color_details);
+                                            }
+                                    
+                                        }
+                                    }
+                                }
+                            }
+
+                            .btn-primary{
+                                margin-top : calc(24rem/16);
                             }
                         }
                     }
