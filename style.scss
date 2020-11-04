@@ -472,12 +472,10 @@
                             .wrapper{
 
                                 height: fit-content;
-                                bottom : 0;
+                                bottom : calc(-294%/10);
                                 left : 50%;
                                 transform: translateX(-50%);
                                 gap: calc(10rem/16);
-                                //margin-bottom: calc(104rem/16);
-                                margin-bottom : calc(54%/10);
 
                                 .carousel-control-prev{
 
@@ -509,15 +507,19 @@
 
                         .card-group{
 
-                            transform : translate(calc(-22rem/16), calc(-90rem/16));
-                            max-width: calc(1170rem/16);
+                            //transform : translate(calc(-22rem/16), calc(-90rem/16));
+                            width: calc(1170rem/16);
 
                             .card {
 
                                 max-width: calc(268rem/16);
                                 height: calc(284rem/16);
                                 gap: calc(7rem/16);
+                                transition: box-shadow 0.5s ease-out;
                                 
+                                &:hover{
+                                    box-shadow: 0 calc(4rem/16) calc(4rem/16) var(--color_secondary), 0 calc(4rem/16) calc(4rem/16) var(--color_secondary), 0 calc(4rem/16) calc(4rem/16) var(--color_secondary),
+                                }
 
                                 .card-img-top{
                                     
@@ -535,6 +537,10 @@
                             }
                         }
                     }
+
+                    /* .sec-2-introduction{
+                        //sfsefse
+                    } */
                 }
 
             }

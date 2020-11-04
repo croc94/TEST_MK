@@ -329,6 +329,11 @@
     margin-right: calc(6rem/16);
     letter-spacing: calc(8rem/160);
   }
+  :root body .container-xl .article {
+    /* .sec-2-introduction{
+                        //sfsefse
+                    } */
+  }
   :root body .container-xl .article .sec-1-main-screen .carousel .carousel-inner .carousel-item:nth-child(1) .wrapper .carousel-item-info {
     -webkit-transform: translateY(calc(160rem/16));
             transform: translateY(calc(160rem/16));
@@ -360,12 +365,11 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    bottom: 0;
+    bottom: calc(-294%/10);
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     gap: calc(10rem/16);
-    margin-bottom: calc(54%/10);
   }
   :root body .container-xl .article .sec-1-main-screen .carousel .wrapper .carousel-control-prev {
     position: static;
@@ -392,14 +396,20 @@
     width: calc(54rem/16);
   }
   :root body .container-xl .article .sec-1-main-screen .card-group {
-    -webkit-transform: translate(calc(-22rem/16), calc(-90rem/16));
-            transform: translate(calc(-22rem/16), calc(-90rem/16));
-    max-width: calc(1170rem/16);
+    width: calc(1170rem/16);
   }
   :root body .container-xl .article .sec-1-main-screen .card-group .card {
     max-width: calc(268rem/16);
     height: calc(284rem/16);
     gap: calc(7rem/16);
+    -webkit-transition: -webkit-box-shadow 0.5s ease-out;
+    transition: -webkit-box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out, -webkit-box-shadow 0.5s ease-out;
+  }
+  :root body .container-xl .article .sec-1-main-screen .card-group .card:hover {
+    -webkit-box-shadow: 0 calc(4rem/16) calc(4rem/16) var(--color_secondary), 0 calc(4rem/16) calc(4rem/16) var(--color_secondary), 0 calc(4rem/16) calc(4rem/16) var(--color_secondary);
+            box-shadow: 0 calc(4rem/16) calc(4rem/16) var(--color_secondary), 0 calc(4rem/16) calc(4rem/16) var(--color_secondary), 0 calc(4rem/16) calc(4rem/16) var(--color_secondary);
   }
   :root body .container-xl .article .sec-1-main-screen .card-group .card .card-img-top {
     max-width: calc(120rem/16);
