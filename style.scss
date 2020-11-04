@@ -125,7 +125,7 @@
         color: var(--color_subarticles);
     }
 
-    .tetx_main{
+    .text_main{
         font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: 300;
@@ -459,7 +459,7 @@
                                             
                                             width : 50%;
 
-                                            .tetx_main{
+                                            .text_main{
 
                                                 margin-top: calc(20rem/16);
                                                 margin-bottom: calc(50rem/16);
@@ -538,9 +538,34 @@
                         }
                     }
 
-                    /* .sec-2-introduction{
-                        //sfsefse
-                    } */
+                    .sec-2-introduction{
+                        
+                        padding-top: calc(294rem/16);
+
+                        .wrapper{
+                            
+                            width: 100%;
+
+                            .row{
+
+                                .col-7{
+
+                                    .card-body{
+                                        
+                                        padding: calc(50rem/16);
+                                        padding-left: calc(69rem/16);
+                                        padding-right: calc(63rem/16);
+
+                                        .card-text{
+
+                                            margin-top: calc(27rem/16);
+                                            width: 83%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
 
             }
