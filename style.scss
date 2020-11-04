@@ -156,7 +156,7 @@
         color: var(--color_double_subart);
     }
 
-    .text_button_1{
+    .text_button_main{
         font-family: 'Commissioner', sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -165,10 +165,15 @@
         text-align: center;
         letter-spacing: 0.08em;
         text-transform: uppercase;
-        color: var(-color_main_text);
+        color: var(--white);
+
+        background-color: var(--color_act_3);
+        border-radius: calc(2rem/16);
+
+        
     }
 
-    .text_button_2{
+    .text_button_additional{
         font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: 600;
@@ -206,7 +211,8 @@
     .header{
         width: 100%;
         background-color: var(--white);
-        padding-top: 6px;
+        padding-top: calc(6rem/16);
+        padding-bottom: calc(16rem/16);
     }
 
 
@@ -252,6 +258,20 @@
         }
     }
 
+    .btn-primary{
+
+        background-color: var(--color_act_3);
+        border-color: var(--color_act_3);
+        border-radius: 0;
+        
+        padding : calc(86rem/160) calc(53rem/16);
+
+        &:hover{
+            background-color: var(--color_act_1);
+            border-color: var(--color_act_1);
+        }
+    }
+
     body{
 
         background-color : var(--color_body);
@@ -262,110 +282,230 @@
             .wrapper{
                 max-width: calc(1216rem/16);
                 //padding-left: calc(16rem/16);
-                transform: translateX((calc(8rem/16)));
+                //transform: translateX((calc(8rem/16)));
             }
             
             .container-xl{
                 max-width: calc(1920rem/16);
                 padding: 0;
                 margin: 0;
+                transform: translateX((calc(8rem/16)));
 
-                .wrapper{
-                    
+                .header{
 
-                    .mini-header{
-                        
-                        width: 100%;
-                        color: var(--color_main_text);
-                        margin-bottom: calc(24rem/16);
+                    .wrapper{
 
-                        .mini-header__language{
+                        .mini-header{
                             
-                            font-family: 'Source Sans Pro', sans-serif;
-                            font-style: normal;
-                            font-size: 1rem;
-                            line-height: calc(20rem/16);
-                            opacity: 0.5;
+                            width: 100%;
+                            color: var(--color_main_text);
+                            margin-bottom: calc(24rem/16);
+    
+                            .mini-header__language{
+                                
+                                font-family: 'Source Sans Pro', sans-serif;
+                                font-style: normal;
+                                font-size: 1rem;
+                                line-height: calc(20rem/16);
+                                opacity: 0.5;
+    
+                                .lang{
 
-                            .lang{
-                                font-weight: 300;
-                            }
+                                    font-weight: 300;
+                                }
+    
+                                .dropdown{
 
-                            .dropdown{
-                                font-weight: 400;
+                                    font-weight: 400;
+    
+                                    .btn{
 
-                                .btn{
-                                    border: none;
-                                    padding-top: 0;
-                                    padding-bottom: 0;
+                                        border: none;
+                                        padding-top: 0;
+                                        padding-bottom: 0;
+    
+                                        &:after {
 
-                                    &:after {
-                                        margin-left: calc(6.5rem/16);
-                                        vertical-align: 0px;
+                                            margin-left: calc(6.5rem/16);
+                                            vertical-align: 0;
+                                            background-image: url(img/ico/drop-down.png);
+                                            background-size: cover;
+                                            width : calc(9rem/16);
+                                            height : calc(9rem/16);
+                                            border-color: transparent;
+                                            border: 0;
+                                        }
                                     }
                                 }
                             }
-                        }
+    
+                            .mini-header__img-eye{
+    
+                                .img-eye__link{
+    
+                                    transform: translate(calc(120rem/16), calc(4rem/16));
+                                   
+                                    .link__eye-img{
 
-                        .mini-header__img-eye{
-
-                            .img-eye__link{
-
-                                transform: translate(calc(120rem/16), calc(4rem/16));
-                               
-                                .link__eye-img{
-                                    width: calc(35rem/16);
-                                    height: calc(35rem/16);
+                                        width: calc(35rem/16);
+                                        height: calc(35rem/16);
+                                    }
                                 }
                             }
+    
+                            .mini-header__connection-var{
+
+                                opacity: 0.5;
+                                gap : calc(16rem/16);
+                                font-size: calc(13rem/16);
+                                letter-spacing: calc(-6rem/160);
+    
+                                .connection-var__A1, .connection-var__MTS {
+    
+                                    .list-group{
+    
+                                        .list-group-item{
+    
+                                            img{
+                                                width: calc(20rem/16);
+                                                height: calc(20rem/16);
+                                            }
+                                        }
+                                    }
+                                }
+    
+                                .connection-var__MTS{
+    
+                                    .list-group{
+    
+                                        gap: calc(40rem/16);
+                                        align-items: flex-end;
+                                    }
+                                }
+    
+                                .connection-var__A1{
+    
+                                    .list-group{
+    
+                                        gap: calc(10rem/16);
+                                        align-items: flex-end;
+    
+                                        .list-group-item{
+                                            &:nth-child(1){
+                                                margin-right: calc(6rem/16);
+                                                letter-spacing: calc(8rem/160);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            
                         }
+                    }
+                }
 
-                        .mini-header__connection-var{
-                            opacity: 0.5;
-                            gap : calc(16rem/16);
-                            font-size: calc(13rem/16);
-                            letter-spacing: calc(-6rem/160);
+                .article{
 
-                            .connection-var__A1, .connection-var__MTS {
+                    .sec-1-main-screen{
 
-                                .list-group{
+                        .carousel{
 
-                                    .list-group-item{
+                            .carousel-inner{
 
-                                        img{
-                                            width: calc(20rem/16);
-                                            height: calc(20rem/16);
+
+                                .carousel-item{
+
+                                    &:nth-child(1){
+
+                                        .wrapper{
+    
+                                            .carousel-item-info{
+    
+                                                    transform: translateY(calc(160rem/16));
+                                            }
+                                        }
+                                    }
+
+                                    &:nth-child(2), &:nth-child(3){
+                                        
+                                        .wrapper{
+    
+                                            .carousel-item-info{
+    
+                                                    transform: translateY(calc(185rem/16));
+                                            }
+                                        }
+                                    }
+
+                                    &:nth-child(4){
+                                        
+                                        .wrapper{
+    
+                                            .carousel-item-info{
+    
+                                                transform: translateY(calc(180rem/16));
+                                            }
+                                        }
+                                    }
+
+                                    .wrapper{
+                                        width: 100%;
+                                        height: 100%;
+                                        top : 0;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+
+                                        .carousel-item-info{
+                                            
+                                            width : 50%;
+
+                                            .tetx_main{
+
+                                                margin-top: calc(20rem/16);
+                                                margin-bottom: calc(50rem/16);
+                                            }
                                         }
                                     }
                                 }
                             }
 
-                            .connection-var__MTS{
+                            .wrapper{
 
-                                .list-group{
+                                height: fit-content;
+                                bottom : 0;
+                                left : 50%;
+                                transform: translateX(-50%);
+                                gap: calc(10rem/16);
+                                //margin-bottom: calc(104rem/16);
+                                margin-bottom : calc(54%/10);
 
-                                    gap: calc(40rem/16);
-                                    align-items: flex-end;
+                                .carousel-control-prev{
+
+                                    position: static;
+                                    width : auto;
+                                    height: fit-content;
+    
+                                    .carousel-control-prev-icon{
+                                        background-image: url(/img/ico/chevron-left.png);
+                                        height: calc(54rem/16);
+                                        width: calc(54rem/16);
+                                    }
                                 }
-                            }
+    
+                                .carousel-control-next{
 
-                            .connection-var__A1{
-
-                                .list-group{
-
-                                    gap: calc(10rem/16);
-                                    align-items: flex-end;
-
-                                    .list-group-item{
-                                        &:nth-child(1){
-                                            margin-right: calc(6rem/16);
-                                            letter-spacing: calc(8rem/160);
-                                        }
+                                    position: static;
+                                    width : auto;
+                                    height: fit-content;
+    
+                                    .carousel-control-next-icon{
+                                        background-image: url(/img/ico/chevron-right.png);
+                                        height : calc(54rem/16);
+                                        width: calc(54rem/16);
                                     }
                                 }
                             }
                         }
-                        
                     }
                 }
 
