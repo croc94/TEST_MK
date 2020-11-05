@@ -35,7 +35,7 @@
   font-weight: normal;
   font-size: calc(40rem/16);
   line-height: calc(50rem/16);
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.01em;
   color: var(--color_articles);
 }
@@ -46,7 +46,7 @@
   font-weight: normal;
   font-size: calc(28rem/16);
   line-height: calc(40rem/16);
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.03em;
   color: var(--color_articles);
 }
@@ -57,9 +57,9 @@
   font-weight: bold;
   font-size: calc(26rem/16);
   line-height: calc(40rem/16);
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.01em;
-  color: var(--color_articles);
+  color: var(--color_act_3);
 }
 
 :root .h4 {
@@ -68,7 +68,7 @@
   font-weight: normal;
   font-size: calc(26rem/16);
   line-height: calc(45rem/16);
-  text-align: center;
+  text-align: left;
   color: var(--color_articles);
 }
 
@@ -78,7 +78,7 @@
   font-weight: normal;
   font-size: calc(20rem/16);
   line-height: calc(30rem/16);
-  text-align: center;
+  text-align: left;
   color: var(--color_articles);
 }
 
@@ -121,7 +121,7 @@
   font-weight: 300;
   font-size: calc(15rem/16);
   line-height: calc(25rem/16);
-  text-align: center;
+  text-align: left;
   color: var(--color_main_text);
 }
 
@@ -131,7 +131,7 @@
   font-weight: 300;
   font-size: calc(14rem/16);
   line-height: calc(25rem/16);
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.01em;
   color: var(--color_main_text);
 }
@@ -485,6 +485,7 @@
   }
   :root body .container-xl .article .sec-4-directions {
     padding-top: calc(50rem/16);
+    padding-bottom: calc(50rem/16);
   }
   :root body .container-xl .article .sec-4-directions .wrapper .sec-4__text {
     margin-bottom: calc(45rem/16);
@@ -520,6 +521,78 @@
   :root body .container-xl .article .sec-4-directions .wrapper .carousel .carousel-control-next .carousel-control-next-icon {
     background-image: url(/img/ico/right.svg);
     height: calc(30rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews {
+    padding-top: calc(50rem/16);
+    padding-bottom: calc(50rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper {
+    max-width: calc(1170rem/16);
+    -webkit-transform: translateX(calc(-24rem/16));
+            transform: translateX(calc(-24rem/16));
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .h2 {
+    margin-bottom: calc(32rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-indicators li {
+    width: calc(10rem/16);
+    height: calc(10rem/16);
+    background: var(-color_no_active);
+    border-radius: 50%;
+    border: none;
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-indicators li.active {
+    background: var(--color_act_3);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner {
+    margin-bottom: calc(32rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group {
+    gap: calc(32rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group .card {
+    padding-bottom: calc(46%/10);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group .card .card-body {
+    padding: 0;
+    margin-left: calc(52rem/16);
+    margin-top: calc(48rem/16);
+    margin-right: calc(47rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group .card .card-body .text_secendary {
+    margin-top: calc(20rem/16);
+    margin-bottom: calc(20rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group .card .card-body .btn {
+    padding-left: 0;
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-control-prev {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: calc(50%/10);
+    padding-bottom: calc(16rem/16);
+    width: calc(50%/10);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-control-prev .carousel-control-prev-icon {
+    background-image: url(/img/ico/left.svg);
+    height: calc(16rem/16);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-control-next {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    top: auto;
+    bottom: 0;
+    padding-bottom: calc(16rem/16);
+    width: calc(50%/10);
+  }
+  :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-control-next .carousel-control-next-icon {
+    background-image: url(/img/ico/right.svg);
+    height: calc(16rem/16);
   }
 }
 /*# sourceMappingURL=style.css.map */
