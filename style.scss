@@ -569,6 +569,8 @@
                     }
 
                     .sec-3-main-directions{
+
+                        padding-bottom: calc(50rem/16);
                         
                         .wrapper{
 
@@ -636,6 +638,69 @@
 
                             .btn-primary{
                                 margin-top : calc(24rem/16);
+                            }
+                        }
+                    }
+
+                    .sec-4-directions{
+
+                        padding-top: calc(50rem/16);
+
+                        .wrapper{
+
+                            .sec-4__text{
+                                
+                                margin-bottom: calc(45rem/16);
+
+                                .sec-4__article{
+                                    padding-right : 0;
+                                }
+
+                                .main-text-block{
+                                    
+                                    padding-left : 0;
+
+
+                                    .text_main{
+
+                                        padding-right: calc(65%/10);
+
+                                        &:nth-child(1){
+                                            margin-bottom: calc(26rem/16);
+                                        }
+                                    }
+                                }
+                            }
+
+                            .carousel {
+                                
+                                max-width: calc(1170rem/16);
+
+
+                                .carousel-control-prev{
+
+                                    left : auto;
+                                    right: 100%;
+                                    width: 9%;
+
+                                    .carousel-control-prev-icon{
+                                        
+                                        background-image: url(/img/ico/left.svg);
+                                        height: calc(30rem/16);
+                                    }
+                                }
+
+                                .carousel-control-next{
+
+                                    left: 100%;
+                                    width: 9%;
+
+                                    .carousel-control-next-icon{
+                                        
+                                        background-image: url(/img/ico/right.svg);
+                                        height: calc(30rem/16);
+                                    }
+                                }
                             }
                         }
                     }
