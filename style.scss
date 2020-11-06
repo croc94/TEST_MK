@@ -646,6 +646,7 @@
 
                         padding-top: calc(50rem/16);
                         padding-bottom: calc(50rem/16);
+                        background-image: linear-gradient(var(--color_body) calc(825%/10), var(--white) calc(825%/10));
 
                         .wrapper{
 
@@ -710,6 +711,7 @@
                         
                         padding-top: calc(50rem/16);
                         padding-bottom: calc(50rem/16);
+                        background-color : var(--white);
                         
                         .wrapper{
 
@@ -753,7 +755,6 @@
                                             .card{
 
                                                 padding-bottom: calc(46%/10);
-                                                background-color : var(--color_body);
                                                 border : none;
 
                                                 .card-body{
@@ -820,7 +821,8 @@
                     .sec-6-clients{
                         
                         padding-top: calc(58rem/16);
-                        padding-bottom: calc(50rem/16);
+                        padding-bottom: calc(90rem/16);
+                        background-color : var(--white);
 
                         .wrapper{
 
@@ -842,8 +844,78 @@
 
                                 filter: grayscale(100%);
                                 margin-top : calc(24rem/16);
-                                gap: calc(62rem/16);
+                                gap: calc(60rem/16);
+                                padding-right: calc(16rem/16);
+                                padding-left: 0;
                             }
+                        }
+                    }
+
+                    .sec-7-triangle{
+
+                        padding-top: calc(90rem/16);
+                        padding-bottom: calc(50rem/16);
+
+                        .wrapper{
+
+                            max-width: calc(1200rem/16);
+                            transform: translateX(calc(-24rem/16));
+                            row-gap: calc(27rem/16);
+
+                            .card-container{
+                                
+                                padding : 0;
+
+                                .card{
+
+                                    box-shadow: 0px calc(4rem/16) calc(10rem/16) rgba(0, 0, 0, 0.05);
+
+                                    .card-body{
+
+                                        padding: calc(380rem/160);
+                                        padding-left: calc(48rem/16);
+                                        padding-right: calc(55rem/16);
+                                        padding-bottom: calc(54rem/16);
+
+                                        .card-title{
+
+                                            margin-bottom: calc(16rem/16);
+                                        }
+                                    }
+
+
+                                }
+
+                                &:nth-child(2){
+
+                                    .card{
+
+                                    background-image: linear-gradient(45deg, var(--white) calc(925%/10), var(--color_act_3) calc(95%/10));
+                                    }
+                                }
+
+                                &:nth-child(3){
+
+                                    .card{
+
+                                        .card-body{
+
+                                            padding-bottom: calc(42rem/16);
+
+                                            .card-text{
+
+                                                padding-left: calc(85%/10);
+                                                padding-top: calc(3%/10);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .sec-7-img{
+                            
+                            margin-top: calc(100rem/16);
                         }
                     }
                 }
