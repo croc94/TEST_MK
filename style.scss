@@ -12,7 +12,7 @@
 
     //***   variables   ***
 
-    --color_body : #E5E5E5;
+    --color_body : #F2F2F2;
 
     --color_act_1 : #D3AF4A;
     --color_act_2 : #AB8B2F;
@@ -275,8 +275,6 @@
 
     body{
 
-        background-color : var(--color_body);
-
         //when screen bigger then 1200px
         @media screen and (min-width : 1200px) {
 
@@ -291,6 +289,7 @@
                 padding: 0;
                 margin: 0;
                 transform: translateX((calc(8rem/16)));
+                background-color : var(--color_body);;
 
                 .header{
 
@@ -754,6 +753,8 @@
                                             .card{
 
                                                 padding-bottom: calc(46%/10);
+                                                background-color : var(--color_body);
+                                                border : none;
 
                                                 .card-body{
 
@@ -812,6 +813,36 @@
                                         height: calc(16rem/16);
                                     }
                                 }
+                            }
+                        }
+                    }
+
+                    .sec-6-clients{
+                        
+                        padding-top: calc(58rem/16);
+                        padding-bottom: calc(50rem/16);
+
+                        .wrapper{
+
+                            transform: translateX(calc(-15rem/16));
+
+                            .sec-6-btn{
+
+                                .btn{
+                                    
+                                    margin-left: calc(62rem/16);
+                                    padding: calc(70rem/160) calc(32rem/16);
+                                    background-color: var(--color_body );
+                                    color : var(--color_act_3);
+                                    
+                                }
+                            }
+
+                            .sec-6-img-container{
+
+                                filter: grayscale(100%);
+                                margin-top : calc(24rem/16);
+                                gap: calc(62rem/16);
                             }
                         }
                     }

@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  --color_body: #E5E5E5;
+  --color_body: #F2F2F2;
   --color_act_1: #D3AF4A;
   --color_act_2: #AB8B2F;
   --color_act_3: #DEC377;
@@ -247,10 +247,6 @@
   border-color: var(--color_act_1);
 }
 
-:root body {
-  background-color: var(--color_body);
-}
-
 @media screen and (min-width: 1200px) {
   :root body .wrapper {
     max-width: calc(1216rem/16);
@@ -261,6 +257,7 @@
     margin: 0;
     -webkit-transform: translateX(calc(8rem/16));
             transform: translateX(calc(8rem/16));
+    background-color: var(--color_body);
   }
   :root body .container-xl .header .wrapper .mini-header {
     width: 100%;
@@ -552,6 +549,8 @@
   }
   :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group .card {
     padding-bottom: calc(46%/10);
+    background-color: var(--color_body);
+    border: none;
   }
   :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-inner .carousel-item .card-group .card .card-body {
     padding: 0;
@@ -593,6 +592,26 @@
   :root body .container-xl .article .sec-5-reviews .wrapper .carousel .carousel-control-next .carousel-control-next-icon {
     background-image: url(/img/ico/right.svg);
     height: calc(16rem/16);
+  }
+  :root body .container-xl .article .sec-6-clients {
+    padding-top: calc(58rem/16);
+    padding-bottom: calc(50rem/16);
+  }
+  :root body .container-xl .article .sec-6-clients .wrapper {
+    -webkit-transform: translateX(calc(-15rem/16));
+            transform: translateX(calc(-15rem/16));
+  }
+  :root body .container-xl .article .sec-6-clients .wrapper .sec-6-btn .btn {
+    margin-left: calc(62rem/16);
+    padding: calc(70rem/160) calc(32rem/16);
+    background-color: var(--color_body);
+    color: var(--color_act_3);
+  }
+  :root body .container-xl .article .sec-6-clients .wrapper .sec-6-img-container {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    margin-top: calc(24rem/16);
+    gap: calc(62rem/16);
   }
 }
 /*# sourceMappingURL=style.css.map */
