@@ -99,8 +99,8 @@
   font-weight: 600;
   font-size: calc(17rem/16);
   line-height: calc(30rem/16);
-  text-align: center;
-  letter-spacing: 0.01em;
+  text-align: left;
+  letter-spacing: calc(-4rem/160);
   color: var(--color_subarticles);
 }
 
@@ -659,7 +659,7 @@
   }
   :root body .container-xl .article .sec-8-services {
     padding-top: calc(40rem/16);
-    padding-bottom: calc(50rem/16);
+    padding-bottom: calc(81rem/16);
   }
   :root body .container-xl .article .sec-8-services .wrapper {
     max-width: calc(1170rem/16);
@@ -713,17 +713,44 @@
     padding-right: calc(30rem/16);
   }
   :root body .container-xl .article .sec-9-trust-and-benefit {
-    padding-top: calc(40rem/16);
+    padding-top: calc(81rem/16);
     padding-bottom: calc(50rem/16);
     background-color: var(--white);
   }
-  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .card .card-content-block .card-list-block .list-group-item::before {
+  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card {
+    border: none;
+  }
+  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card .card-content-block .card-body-block .card-body {
+    padding-left: 0;
+    padding-top: calc(11rem/16);
+    padding-right: calc(240%/10);
+  }
+  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card .card-content-block .card-body-block .card-body .card-title {
+    margin-bottom: calc(65%/10);
+  }
+  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card .card-content-block .card-list-block .list-group {
+    gap: calc(335rem/160);
+    margin-right: calc(210%/10);
+    margin-left: calc(135%/10);
+    margin-top: calc(10%/10);
+  }
+  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card .card-content-block .card-list-block .list-group .list-group-item::before {
     content: "";
     width: calc(10rem/16);
     height: calc(10rem/16);
     background: var(--color_act_3);
     border-radius: 50%;
-    display: inline-block;
+    display: block;
+    margin-right: calc(80%/10);
+    position: absolute;
+    top: calc(315%/10);
+    left: calc(-140%/10);
+  }
+  :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-spacer {
+    width: 100%;
+    height: calc(10rem/160);
+    background-color: var(--color_no_active);
+    margin: calc(49%/10) auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
