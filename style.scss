@@ -974,6 +974,16 @@
                                             border : none;
                                         }
                                     }
+
+                                    .blurred-card{
+
+                                        background-image: linear-gradient(to right, var(--color_act_5) calc(70rem/16), var(--white) calc(70rem/16));
+                                    }
+
+                                    .almost-blurred-card{
+
+                                        background-image: linear-gradient(to right, var(--color_act_4) calc(70rem/16), var(--white) calc(70rem/16));
+                                    }
                                 }
                             }
 
@@ -987,6 +997,43 @@
                                 }
                             }
                         }
+                    }
+
+                    .sec-9-trust-and-benefit{
+                        
+
+                        padding-top: calc(40rem/16);
+                        padding-bottom: calc(50rem/16);
+                        background-color: var(--white);
+
+                        .wrapper{
+
+                            .card{
+
+                                .card-content-block{
+
+                                    .card-list-block{
+
+                                        .list-group-item{
+
+                                            &::before{
+
+                                                //width: calc(10rem/16);
+                                                
+                                                content : "";
+                                                width: calc(10rem/16);
+                                                height: calc(10rem/16);
+                                                background: var(--color_act_3);
+                                                border-radius: 50%;
+                                                display: inline-block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
                     }
                 }
 
