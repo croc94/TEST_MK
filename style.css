@@ -785,28 +785,28 @@
     padding-right: calc(90%/10);
     padding-bottom: calc(38%/10);
   }
-  :root body .container-xl .article .sec-11-coperation {
+  :root body .container-xl .article .sec-11-cooperation {
     padding-top: calc(40rem/16);
-    padding-bottom: calc(50rem/16);
+    padding-bottom: calc(40rem/16);
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper {
+  :root body .container-xl .article .sec-11-cooperation .wrapper {
     -webkit-transform: translateX(calc(-36rem/16));
             transform: translateX(calc(-36rem/16));
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(1) .card {
     background-color: transparent;
     border: none;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group {
     gap: calc(335rem/160);
     margin-right: calc(158%/10);
     margin-left: calc(207%/10);
     border: none;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item {
     background-color: transparent;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item::before {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item::before {
     content: "1";
     width: calc(70rem/16);
     height: calc(70rem/16);
@@ -824,39 +824,60 @@
     text-align: center;
     color: var(--color_act_3);
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item:nth-child(2)::before {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item:nth-child(2)::before {
     content: "2";
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .card-body:last-child {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(1) .card .card-body:last-child {
     padding-top: calc(60%/10);
     padding-right: 5%;
     padding-bottom: 0%;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body {
     padding-top: calc(95%/10);
     padding-left: calc(107%/10);
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group {
     margin-bottom: 2%;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .tel-input-label {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .tel-input-label {
     margin-bottom: 1%;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .form-text {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .form-text {
     margin-top: 4%;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .form-control {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .form-control {
     border-top: none;
     border-right: none;
     border-left: none;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .text_additionally b {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .text_additionally b {
     font-weight: bold;
     text-decoration: underline;
   }
-  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .btn {
+  :root body .container-xl .article .sec-11-cooperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .btn {
     margin-top: 4%;
     width: 95%;
+  }
+  :root body .container-xl .article .sec-12-cost {
+    padding-top: calc(40rem/16);
+    padding-bottom: calc(50rem/16);
+  }
+  :root body .container-xl .article .sec-12-cost .wrapper .card {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  :root body .container-xl .article .sec-12-cost .wrapper .card .card-body {
+    padding-left: 0;
+  }
+  :root body .container-xl .article .sec-12-cost .wrapper .card .card-body .card-title {
+    margin-bottom: calc(42%/10);
+  }
+  :root body .container-xl .article .sec-12-cost .wrapper .card .card-body .card-text {
+    margin-bottom: calc(47%/10);
+  }
+  :root body .container-xl .article .sec-12-cost .wrapper .card .card-body .btn {
+    width: 29%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1131,7 +1131,7 @@
                     .sec-11-cooperation{
 
                         padding-top: calc(40rem/16);
-                        padding-bottom: calc(50rem/16);
+                        padding-bottom: calc(40rem/16);
 
                         .wrapper{
 
@@ -1253,6 +1253,42 @@
                                                 }
                                             }
                                         }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .sec-12-cost{
+
+                        padding-top: calc(40rem/16);
+                        padding-bottom: calc(50rem/16);
+
+                        .wrapper{
+
+                            .card{
+
+                                background-color: transparent;
+                                border : none;
+                                padding : 0;
+
+                                .card-body{
+
+                                    padding-left: 0;
+
+                                    .card-title{
+
+                                        margin-bottom: calc(42%/10);
+                                    }
+
+                                    .card-text{
+
+                                        margin-bottom: calc(47%/10);
+                                    }
+
+                                    .btn{
+
+                                        width: 29%;
                                     }
                                 }
                             }
