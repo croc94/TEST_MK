@@ -736,15 +736,15 @@
   }
   :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card .card-content-block .card-list-block .list-group .list-group-item::before {
     content: "";
-    width: calc(10rem/16);
-    height: calc(10rem/16);
-    background: var(--color_act_3);
+    width: calc(40rem/16);
+    height: calc(40rem/16);
     border-radius: 50%;
     display: block;
-    margin-right: calc(80%/10);
     position: absolute;
-    top: calc(315%/10);
-    left: calc(-140%/10);
+    top: calc(-120%/10);
+    left: calc(-180%/10);
+    border: calc(1rem/16) solid var(--color_act_5);
+    background: radial-gradient(circle, var(--color_act_3) calc(48rem/160), var(--white) calc(48rem/160));
   }
   :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-spacer {
     width: 100%;
