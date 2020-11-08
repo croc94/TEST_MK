@@ -153,7 +153,7 @@
         font-weight: 300;
         font-size: calc(13rem/16);
         line-height: calc(20rem/16);
-        text-align: center;
+        text-align: left;
         color: var(--color_double_subart);
     }
 
@@ -1076,7 +1076,7 @@
                     .sec-10-advantages{
 
                         padding-top: calc(86rem/16);
-                        padding-bottom: calc(50rem/16);
+                        padding-bottom: calc(40rem/16);
 
                         .wrapper{
 
@@ -1120,6 +1120,137 @@
                                                 padding-left: calc(42%/10);
                                                 padding-right: calc(90%/10);
                                                 padding-bottom: calc(38%/10);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .sec-11-cooperation{
+
+                        padding-top: calc(40rem/16);
+                        padding-bottom: calc(50rem/16);
+
+                        .wrapper{
+
+                            transform: translateX(calc(-36rem/16));
+
+                            .sec-11-card-block{
+
+                                &:nth-child(1){
+
+                                    .card{
+
+                                        background-color : transparent;
+                                        border : none;
+
+                                        .list-group{
+
+                                            gap: calc(335rem/160);
+                                            margin-right: calc(158%/10);
+                                            margin-left: calc(207%/10);
+                                            border : none;
+
+                                            .list-group-item{
+
+                                                background-color : transparent;
+
+                                                &::before{
+
+                                                    //width: calc(10rem/16);
+                                                    content: "1";
+                                                    width: calc(70rem/16);
+                                                    height: calc(70rem/16);
+                                                    border-radius: 50%;
+                                                    display: block;
+                                                    position: absolute;
+                                                    top: calc(50%/10);
+                                                    left: calc(-270%/10);
+                                                    border: calc(1rem/16) solid var(--color_act_5);
+                                                    //background: radial-gradient(circle, var(--color_act_3) calc(48rem/160), var(--white) calc(48rem/160));
+
+                                                    font-family: 'Commissioner', sans-serif;
+                                                    font-style: normal;
+                                                    font-weight: 800;
+                                                    font-size: calc(22rem/16);
+                                                    line-height: calc(62rem/16);
+                                                    text-align: center;
+                                                    color: var(--color_act_3);
+                                                    
+                                                }
+
+                                                &:nth-child(2){
+                                                    
+                                                    &::before{
+                                                        
+                                                        content: "2";
+                                                    }
+                                                }
+                                            }
+
+
+                                        }
+
+                                        .card-body{
+                                            
+                                            &:last-child{
+
+                                                padding-top: calc(60%/10);
+                                                padding-right: 5%;
+                                                padding-bottom: 0%;
+                                            }
+                                        }
+                                    }
+                                }
+                                
+                                &:nth-child(2){
+
+                                    .card{
+
+                                        .card-body{
+
+                                            padding-top: calc(95%/10);
+                                            padding-left: calc(107%/10);
+
+                                            form{
+
+                                                .form-group{
+                                                    
+                                                    margin-bottom: 2%;
+
+                                                    .tel-input-label{
+
+                                                        margin-bottom: 1%;
+                                                    }
+
+                                                    .form-text{
+                                                        margin-top: 4%;
+                                                    }
+
+                                                    .form-control{
+
+                                                        border-top: none;
+                                                        border-right: none;
+                                                        border-left: none;
+                                                        
+                                                    }
+
+                                                    .text_additionally{
+
+                                                        b{
+                                                            font-weight: bold;
+                                                            text-decoration: underline;
+                                                        }
+                                                    }
+                                                }
+
+                                                .btn{
+
+                                                    margin-top: 4%;
+                                                    width: 95%;
+                                                }
                                             }
                                         }
                                     }

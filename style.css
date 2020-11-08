@@ -142,7 +142,7 @@
   font-weight: 300;
   font-size: calc(13rem/16);
   line-height: calc(20rem/16);
-  text-align: center;
+  text-align: left;
   color: var(--color_double_subart);
 }
 
@@ -754,7 +754,7 @@
   }
   :root body .container-xl .article .sec-10-advantages {
     padding-top: calc(86rem/16);
-    padding-bottom: calc(50rem/16);
+    padding-bottom: calc(40rem/16);
   }
   :root body .container-xl .article .sec-10-advantages .wrapper {
     max-width: calc(1170rem/16);
@@ -784,6 +784,79 @@
     padding-left: calc(42%/10);
     padding-right: calc(90%/10);
     padding-bottom: calc(38%/10);
+  }
+  :root body .container-xl .article .sec-11-coperation {
+    padding-top: calc(40rem/16);
+    padding-bottom: calc(50rem/16);
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper {
+    -webkit-transform: translateX(calc(-36rem/16));
+            transform: translateX(calc(-36rem/16));
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card {
+    background-color: transparent;
+    border: none;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group {
+    gap: calc(335rem/160);
+    margin-right: calc(158%/10);
+    margin-left: calc(207%/10);
+    border: none;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item {
+    background-color: transparent;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item::before {
+    content: "1";
+    width: calc(70rem/16);
+    height: calc(70rem/16);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: calc(50%/10);
+    left: calc(-270%/10);
+    border: calc(1rem/16) solid var(--color_act_5);
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: calc(22rem/16);
+    line-height: calc(62rem/16);
+    text-align: center;
+    color: var(--color_act_3);
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .list-group .list-group-item:nth-child(2)::before {
+    content: "2";
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(1) .card .card-body:last-child {
+    padding-top: calc(60%/10);
+    padding-right: 5%;
+    padding-bottom: 0%;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body {
+    padding-top: calc(95%/10);
+    padding-left: calc(107%/10);
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group {
+    margin-bottom: 2%;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .tel-input-label {
+    margin-bottom: 1%;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .form-text {
+    margin-top: 4%;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .form-group .text_additionally b {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  :root body .container-xl .article .sec-11-coperation .wrapper .sec-11-card-block:nth-child(2) .card .card-body form .btn {
+    margin-top: 4%;
+    width: 95%;
   }
 }
 /*# sourceMappingURL=style.css.map */
