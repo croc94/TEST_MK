@@ -1000,13 +1000,10 @@
                     }
 
                     .sec-9-trust-and-benefit{
-                        
 
                         padding-top: calc(81rem/16);
-                        padding-bottom: calc(50rem/16);
+                        padding-bottom: calc(103rem/16);
                         background-color: var(--white);
-                        
-                        //background-color: black;
 
                         .wrapper{
 
@@ -1074,6 +1071,61 @@
                         }
 
 
+                    }
+
+                    .sec-10-advantages{
+
+                        padding-top: calc(86rem/16);
+                        padding-bottom: calc(50rem/16);
+
+                        .wrapper{
+
+                            max-width: calc(1170rem/16);
+                            transform: translateX(calc(-24rem/16));
+
+                            .sec-10-cards-container{
+
+                                row-gap : calc(38rem/16);
+
+                                .card-block{
+
+                                    .card-image{
+
+                                        max-height: calc(120rem/16);
+                                        border: 1px solid black;
+                                        border-radius: 50%;
+                                        max-width: calc(120rem/16);
+                                        padding: calc(28rem/16);
+                                        margin-top: 29%;
+                                    }
+
+                                    .card-body{
+
+                                        padding-top: calc(87%/10);
+                                        padding-bottom: calc(130%/10);
+                                    }
+
+                                    
+
+                                    &:last-child{
+
+
+                                        .card{
+
+                                            background-image: linear-gradient(45deg, var(--white) calc(955%/10), var(--color_act_3) calc(955%/10));
+
+                                            .card-body{
+                                                
+                                                padding-top: calc(35%/10);
+                                                padding-left: calc(42%/10);
+                                                padding-right: calc(90%/10);
+                                                padding-bottom: calc(38%/10);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 

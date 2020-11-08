@@ -714,7 +714,7 @@
   }
   :root body .container-xl .article .sec-9-trust-and-benefit {
     padding-top: calc(81rem/16);
-    padding-bottom: calc(50rem/16);
+    padding-bottom: calc(103rem/16);
     background-color: var(--white);
   }
   :root body .container-xl .article .sec-9-trust-and-benefit .wrapper .sec-9-card {
@@ -751,6 +751,39 @@
     height: calc(10rem/160);
     background-color: var(--color_no_active);
     margin: calc(49%/10) auto;
+  }
+  :root body .container-xl .article .sec-10-advantages {
+    padding-top: calc(86rem/16);
+    padding-bottom: calc(50rem/16);
+  }
+  :root body .container-xl .article .sec-10-advantages .wrapper {
+    max-width: calc(1170rem/16);
+    -webkit-transform: translateX(calc(-24rem/16));
+            transform: translateX(calc(-24rem/16));
+  }
+  :root body .container-xl .article .sec-10-advantages .wrapper .sec-10-cards-container {
+    row-gap: calc(38rem/16);
+  }
+  :root body .container-xl .article .sec-10-advantages .wrapper .sec-10-cards-container .card-block .card-image {
+    max-height: calc(120rem/16);
+    border: 1px solid black;
+    border-radius: 50%;
+    max-width: calc(120rem/16);
+    padding: calc(28rem/16);
+    margin-top: 29%;
+  }
+  :root body .container-xl .article .sec-10-advantages .wrapper .sec-10-cards-container .card-block .card-body {
+    padding-top: calc(87%/10);
+    padding-bottom: calc(130%/10);
+  }
+  :root body .container-xl .article .sec-10-advantages .wrapper .sec-10-cards-container .card-block:last-child .card {
+    background-image: linear-gradient(45deg, var(--white) calc(955%/10), var(--color_act_3) calc(955%/10));
+  }
+  :root body .container-xl .article .sec-10-advantages .wrapper .sec-10-cards-container .card-block:last-child .card .card-body {
+    padding-top: calc(35%/10);
+    padding-left: calc(42%/10);
+    padding-right: calc(90%/10);
+    padding-bottom: calc(38%/10);
   }
 }
 /*# sourceMappingURL=style.css.map */
