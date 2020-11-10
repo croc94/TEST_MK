@@ -46,6 +46,7 @@
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-1 .card-body .btn-container .btn {
     padding-left: 0;
     margin-bottom: 6%;
+    background-color: none;
   }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-1 .card-body .btn-container .btn:after {
     content: url("img/footer/arrow.svg");
@@ -466,111 +467,6 @@
     -webkit-transform: translateX(calc(8rem/16));
             transform: translateX(calc(8rem/16));
     background-color: var(--color_body);
-    /* .footer{
-
-                    padding-top: calc(51rem/16);
-                    padding-bottom: calc(50rem/16);
-
-
-                    .wrapper{
-
-                        transform: translateX(calc(-60rem/16));
-                        max-width: calc(1170rem/16);
-
-                        .footer-card-container{
-
-                            padding : 0;
-
-                            .card-block-1{
-
-                                .card-body{
-
-                                    padding-left: 12%;
-                                    padding-right: 0;
-                                    
-                                    .card-title{
-
-                                        margin-bottom: 30%;
-                                    }
-
-                                    .card-subtitle{
-
-                                        margin-bottom: 6%;
-                                    }
-
-                                    .socials{
-
-                                        margin-top: 24%;
-                                        margin-bottom: 18%;
-                                        gap : 7%;
-
-                                        .socials-img-block{
-
-                                            padding : 0;
-                                            //column-gap : calc(15rem/16);
-                                            
-
-                                            .socials-img{
-        
-                                                height: calc(27rem/16);
-                                                width: calc(27rem/16);
-                                            }
-
-                                        }
-                                    }
-
-                                    .btn-container{
-
-                                        .btn{
-    
-                                            padding-left: 0;
-                                            margin-bottom: 6%;
-    
-                                            &:after{
-    
-                                                content: url('img/footer/arrow.svg');
-                                                margin-left: 7%;
-                                                position: absolute;
-                                                top: 18%;
-                                                left: 32%;
-                                            }
-                                        }
-
-                                        &:last-child{
-
-                                            .btn{
-
-                                                &:after{
-                                                    
-                                                    top: 27%;
-                                                    left: 63%;
-                                                }
-                                            }
-                                        }
-
-                                    }
-                                }
-                            }
-
-                            .card-block-2{
-
-                                .card-header{
-
-                                    color: var(--color_secondary);
-                                }
-
-                                .card-body{
-
-                                    .card-title{
-
-                                        color: var(--color_subarticles);
-                                    }
-                                }
-
-                            }
-                        }
-                    }
-                } */
   }
   :root body .container-xl .header .wrapper .mini-header {
     width: 100%;
@@ -780,9 +676,12 @@
   }
   :root body .container-xl .article .sec-3-main-directions .wrapper .card-group .card .row .card-info .card-footer {
     padding: 0;
+    background-color: transparent;
+    border: none;
   }
   :root body .container-xl .article .sec-3-main-directions .wrapper .card-group .card .row .card-info .card-footer .btn {
     padding: 0;
+    background-color: transparent;
   }
   :root body .container-xl .article .sec-3-main-directions .wrapper .card-group .card .row .card-img-block .card-img {
     width: calc(80rem/16);
@@ -969,6 +868,7 @@
   }
   :root body .container-xl .article .sec-7-triangle .sec-7-img {
     margin-top: calc(100rem/16);
+    width: 100%;
   }
   :root body .container-xl .article .sec-8-services {
     padding-top: calc(40rem/16);
@@ -1010,6 +910,7 @@
     padding-right: calc(15rem/16);
     padding-bottom: calc(14rem/16);
     border: none;
+    background-color: transparent;
   }
   :root body .container-xl .article .sec-8-services .wrapper .cards-container .cards-container-block .blurred-card {
     background-image: -webkit-gradient(linear, left top, right top, from(var(--color_act_5)), to(var(--white)));
