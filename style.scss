@@ -1,3 +1,7 @@
+@import 'style_footer.scss';
+
+
+
 :root{
     //***    nule   ***
 
@@ -121,7 +125,7 @@
         font-weight: normal;
         font-size: calc(16rem/16);
         line-height: calc(25rem/16);
-        text-align: center;
+        text-align: left;
         letter-spacing: 0.02em;
         color: var(--color_subarticles);
     }
@@ -147,6 +151,18 @@
         color: var(--color_main_text);
     }
 
+    .footer-card-title{
+
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(14rem/16);
+        line-height: calc(25rem/16);
+        letter-spacing: calc(5rem/160);
+        text-transform: uppercase;
+        color: var(--color_subarticles);
+    }
+
     .text_additionally{
         font-family: 'Lato', sans-serif;
         font-style: normal;
@@ -155,6 +171,7 @@
         line-height: calc(20rem/16);
         text-align: left;
         color: var(--color_double_subart);
+        letter-spacing: calc(3rem/160);
     }
 
     .text_button_main{
@@ -180,7 +197,7 @@
         font-weight: 600;
         font-size: calc(12rem/16);
         line-height: calc(20rem/16);
-        text-align: center;
+        text-align: left;
         letter-spacing: 0.02em;
         text-transform: uppercase;
         color: var(--color_double_subart);
@@ -214,6 +231,17 @@
         background-color: var(--white);
         padding-top: calc(6rem/16);
         padding-bottom: calc(16rem/16);
+    }
+
+    .caption{
+
+        font-family: 'Commissioner', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(13rem/16);
+        line-height: calc(20rem/16);
+        letter-spacing: 0.01em;
+        color:var(--color_secondary);
     }
 
 
@@ -1262,7 +1290,7 @@
                     .sec-12-cost{
 
                         padding-top: calc(40rem/16);
-                        padding-bottom: calc(50rem/16);
+                        padding-bottom: calc(51rem/16);
 
                         .wrapper{
 
@@ -1295,6 +1323,112 @@
                         }
                     }
                 }
+
+                /* .footer{
+
+                    padding-top: calc(51rem/16);
+                    padding-bottom: calc(50rem/16);
+
+
+                    .wrapper{
+
+                        transform: translateX(calc(-60rem/16));
+                        max-width: calc(1170rem/16);
+
+                        .footer-card-container{
+
+                            padding : 0;
+
+                            .card-block-1{
+
+                                .card-body{
+
+                                    padding-left: 12%;
+                                    padding-right: 0;
+                                    
+                                    .card-title{
+
+                                        margin-bottom: 30%;
+                                    }
+
+                                    .card-subtitle{
+
+                                        margin-bottom: 6%;
+                                    }
+
+                                    .socials{
+
+                                        margin-top: 24%;
+                                        margin-bottom: 18%;
+                                        gap : 7%;
+
+                                        .socials-img-block{
+
+                                            padding : 0;
+                                            //column-gap : calc(15rem/16);
+                                            
+
+                                            .socials-img{
+        
+                                                height: calc(27rem/16);
+                                                width: calc(27rem/16);
+                                            }
+
+                                        }
+                                    }
+
+                                    .btn-container{
+
+                                        .btn{
+    
+                                            padding-left: 0;
+                                            margin-bottom: 6%;
+    
+                                            &:after{
+    
+                                                content: url('img/footer/arrow.svg');
+                                                margin-left: 7%;
+                                                position: absolute;
+                                                top: 18%;
+                                                left: 32%;
+                                            }
+                                        }
+
+                                        &:last-child{
+
+                                            .btn{
+
+                                                &:after{
+                                                    
+                                                    top: 27%;
+                                                    left: 63%;
+                                                }
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+
+                            .card-block-2{
+
+                                .card-header{
+
+                                    color: var(--color_secondary);
+                                }
+
+                                .card-body{
+
+                                    .card-title{
+
+                                        color: var(--color_subarticles);
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                } */
 
             }
         }

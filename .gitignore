@@ -3,3 +3,5 @@
 *.sass.map
 *.scss.map
 *.psd
+
+style_footer.css
