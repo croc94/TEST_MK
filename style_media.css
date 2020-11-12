@@ -24,23 +24,23 @@
   :root body .container-xl .article .sec-1-main-screen .carousel .wrapper {
     bottom: calc(-650%/10);
   }
-  :root body .container-xl .article .sec-4-directions .wrapper .carousel {
+  :root body .container-xl .article .sec-4-directions .carousel {
     max-width: calc(1170rem/16);
   }
-  :root body .container-xl .article .sec-4-directions .wrapper .carousel .carousel-control-prev {
+  :root body .container-xl .article .sec-4-directions .carousel .carousel-control-prev {
     left: auto;
     right: 90%;
     width: 9%;
   }
-  :root body .container-xl .article .sec-4-directions .wrapper .carousel .carousel-control-prev .carousel-control-prev-icon {
+  :root body .container-xl .article .sec-4-directions .carousel .carousel-control-prev .carousel-control-prev-icon {
     background-image: url(/img/ico/left.svg);
     height: calc(30rem/16);
   }
-  :root body .container-xl .article .sec-4-directions .wrapper .carousel .carousel-control-next {
+  :root body .container-xl .article .sec-4-directions .carousel .carousel-control-next {
     left: 90%;
     width: 9%;
   }
-  :root body .container-xl .article .sec-4-directions .wrapper .carousel .carousel-control-next .carousel-control-next-icon {
+  :root body .container-xl .article .sec-4-directions .carousel .carousel-control-next .carousel-control-next-icon {
     background-image: url(/img/ico/right.svg);
     height: calc(30rem/16);
   }
@@ -162,9 +162,57 @@
 }
 
 @media (max-width: 576px) {
+  :root body .btn {
+    font-size: calc(16rem/16);
+  }
+  :root body .h1 {
+    font-size: calc(30rem/16);
+    line-height: calc(30rem/16);
+  }
+  :root body .h5 {
+    font-size: calc(22rem/16);
+  }
+  :root body .text_main {
+    font-size: calc(20rem/16);
+    line-height: calc(25rem/16);
+  }
+  :root body .sub_h2 {
+    font-size: calc(18rem/16);
+    line-height: calc(25rem/16);
+  }
+  :root body .text_secendary {
+    font-size: calc(18rem/16);
+  }
+  :root body .text_additionally {
+    font-size: calc(16rem/16);
+  }
+  :root body .caption {
+    font-size: calc(16rem/16);
+  }
+  :root body .footer-card-title {
+    font-size: calc(16rem/16);
+  }
   :root body .container-xl .header .wrapper .navbar .navbar-collapse .navbar-nav .nav-link {
     font-size: calc(18rem/16);
     line-height: calc(24rem/16);
+  }
+  :root body .container-xl .header .wrapper .mini-header .mini-header__language {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: calc(20rem/16);
+    opacity: 0.5;
+  }
+  :root body .container-xl .header .wrapper .mini-header .mini-header__connection-var {
+    font-size: calc(16rem/16);
+    letter-spacing: calc(0rem/160);
+  }
+  :root body .container-xl .article .sec-1-main-screen .wrapper .card-group .card {
+    height: 100%;
+  }
+  :root body .container-xl .article .sec-2-introduction {
+    padding-top: 25%;
+    padding-bottom: 4%;
   }
   :root body .container-xl .article .sec-3-main-directions .wrapper .card-group-container .card-mini-container .card {
     max-width: 100%;
@@ -196,6 +244,9 @@
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-1 .card-body .btn-container .btn:after {
     display: none;
   }
+  :root body .container-xl .footer .wrapper .footer-card-container .card-block-2 .card-header {
+    padding-top: calc(5%/10);
+  }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-2 .card-body .card {
     margin-bottom: 3%;
   }
@@ -206,17 +257,25 @@
     margin-top: calc(10%/10);
     margin-bottom: calc(10%/10);
   }
+  :root body .container-xl .footer .wrapper .footer-card-container .card-block-2 .card-body .sub-card .card-body {
+    padding-left: 0;
+  }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-2 .card-body .sub-card .card-body .card-title {
     margin-bottom: 3%;
   }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-2 .card-body .sub-card:last-child {
     margin-bottom: 0;
   }
+  :root body .container-xl .footer .wrapper .footer-card-container .card-block-2 .card-body .sub-card:nth-child(n) .card-body {
+    padding-left: 0;
+  }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-3 .card-header {
     padding-top: calc(30%/10);
+    padding-left: 6.2%;
   }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-3 .card-body {
     padding-top: calc(30%/10);
+    padding-left: calc(62%/10);
   }
   :root body .container-xl .footer .wrapper .footer-card-container .card-block-3 .card-body .block-3-card-container .card .card-body {
     padding-bottom: calc(30%/10);
